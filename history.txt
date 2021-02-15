@@ -1,0 +1,109 @@
+    1  termux-setup-storage
+    2  ls
+    3  cd storage
+    4  ls
+    5  cd shared
+    6  ls
+    7  mkdir git-basic-exercises
+    8  cd git-basic-exercises
+    9  ls -a
+   10  git init
+   11  ls -a
+   12  git status
+   13  touch README.md
+   14  ls -a
+   15  git status
+   16  git log
+   17  git add .
+   18  git status
+   19  git status
+   20  git commit -m "initial commit"
+   21  git log
+   22  q
+   23  exit
+   24  termux-setup-storage
+   25  cd storage
+   26  ls
+   27  cd shared
+   28  ls
+   29  cd git-basic-exercises
+   30  ls
+   31  git checkout milkshake-flavours
+   32  ls
+   33  git log
+   34  git checkout history
+   35  ls
+   36  git log
+   37  git checkout main
+   38  git merge milkshake-flavours
+   39  ls
+   40  git log
+   41  git checkout main
+   42  git merge history
+   43  README.md
+   44  cd README.md
+   45  git merge --abort
+   46  git checkout main
+   47  git merge history
+   48  git add README.md 
+   49  git commit -m "merged history"
+   50  git status
+   51  git log
+   52  git checkout history
+   53  git log
+   54  pkg update
+   55  pkg upgrade
+   56  pkg install git
+   57  git config --global user.name "siphanxumalo"
+   58  git config --global user.email "siphanxumalo@gmail.com"
+   59  termux-setup-storage
+   60  cd storage/shared
+   61  ls
+   62  mkdir git-basic-exercises
+   63  cd git-basic-exercises
+   64  ls -a
+   65  git init
+   66  ls -a
+   67  git status
+   68  touch README.md
+   69  ls -a
+   70  git status
+   71  git log
+   72  git add .
+   73  git status
+   74  git commit -m "initial commit"
+   75  git log
+   76  nano README.md
+   77  cat README.md
+   78  git status
+   79  git add .
+   80  git commit -m "second commit"
+   81  nano README.md
+   82  cat README.md
+   83  git add .
+   84  git commit -m "third commit"
+   85  git log
+   86  git checkout 85beed2da42c73a7d6e5fc48cbfbb16f6e83fd58
+   87  cat README.md
+   88  git checkout main
+   89  cat README.md
+   90  git branch
+   91  git branch milkshake-flavours
+   92  git branch
+   93  git checkout milkshake-flavours
+   94  git branch
+   95  git checkout main
+   96  git branch
+   97  git checkout milkshake-flavours
+   98  nano milkshake.md
+   99  cat milkshake.md
+  100  git status
+  101  git add .
+  102  git commit -m "added initial flavours"
+  103  git log
+  104  git checkout main
+  105  git branch history
+  106  git checkout history
+  107  git log
+  108  git branch
+  109  history > history.txt
